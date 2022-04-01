@@ -1,0 +1,24 @@
+{
+  "name": "card-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card"
+  ],
+  "author": "LTA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
